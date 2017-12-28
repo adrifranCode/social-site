@@ -9,6 +9,19 @@ body{
 	background-size:auto auto;
 }
 
+.iframe_body-adjust{
+	background:none;
+	
+}
+
+.card, .card-content{
+	background-color:rgba(240, 230, 234, 0);
+}
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+	color:#311e3e;
+}
+
 .background-adjust-body{
 	
 }
@@ -27,6 +40,10 @@ nav{
 
 li a{
 	color:#87314e !important;
+}
+
+.status_post a{
+	color:#87314e;
 }
 
 .teal{
@@ -49,6 +66,37 @@ li a{
 	
 }
 
+.newsfeedPostOptions{
+	padding: 0px;
+	text-decoration: none;
+	color:#311e3e;
+	border:none;
+
+}
+
+.newsfeedPostOptions iframe{
+	border: 0px;
+	height: 17px;
+	width: 120px;
+}
+
+
+.comment_like{
+	background-color:transparent;
+	border:none;
+	font-size:14px;
+	color: #df405a;
+	padding:0;
+	height:auto;
+	width:auto;
+	margin:0;
+}
+
+.like_value{
+	display:inline;
+	font-size:14px;
+}
+
 #comment_iframe{
 	max-height:250px;
 	width:100%;
@@ -56,9 +104,14 @@ li a{
 	
 }
 
+.post_form{
+	margin-bottom: 49px;
+}
+
 
 .comment_section{
 	padding:0 5px 5px 5px;
+	margin-top: 40px;
 }
 
 .comment_form textarea{

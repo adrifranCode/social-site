@@ -12,7 +12,7 @@
 	
 	<div class="row">
 
-      <div class="col s12 m4 l2"> <!-- Note that "m4 l3" was added -->
+      <div class="col s12 m4 l3"> <!-- Note that "m4 l3" was added -->
         
 			<div class="card">
 				<div class="card-image">
@@ -31,7 +31,7 @@
 
       </div>
 
-      <div class="col s12 m8 l10"> 
+      <div class="col s12 m8 l19"> 
 		<div class="input-field col s12">
 			<form class="post_form" action="index.php" method="POST">
 				<textarea name="post_text" class="materialize-textarea" id="post_text" placeholder="Got something to say?"></textarea>
