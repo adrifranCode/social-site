@@ -78,7 +78,7 @@ body::before {
 	z-index:-5;
 	top: 0;
 	right: 0;
-	bottom: -180px;
+	bottom: -149px;
 	left: 0;
 	background-image: linear-gradient(to bottom right,white,#87314e);
 	opacity: .2; 
@@ -102,11 +102,27 @@ input[type=password]:not(.browser-default):focus:not([readonly]){
     box-shadow: 0 1px 0 0 #512645;
 }
 
-@media only screen and (min-width: 1750px) {
+@media only screen and (min-width: 1650px) {
     .btn, .btn-large {
-		margin-top:250px;
+		margin-top:15%;
 
 	}
+	form{
+		margin-top:5%;
+    }
+}   
+
+@media only screen and (min-width: 2150px) {
+	.btn, .btn-large {
+		margin-top:25%;
+
+	}
+	
+	form{
+		margin-top:8%;
+    }
+}  
+   
 	
 @media only screen and (min-width: 2450px) {
     form{

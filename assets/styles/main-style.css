@@ -1,0 +1,87 @@
+html{
+	
+}
+
+body{
+	background: linear-gradient(to bottom right, rgba(255,0,0,0), rgba(135, 49, 78, .2));
+	background-repeat:no-repeat;
+
+	background-size:auto auto;
+}
+
+.background-adjust-body{
+	
+}
+
+nav{
+	background-color:rgba(240, 230, 234, 0.3);
+	box-shadow: 0px 2px #87314e;
+	
+}
+
+
+.brand-logo{
+	font-family: 'Satisfy', cursive;
+	color:#87314e !important;
+}
+
+li a{
+	color:#87314e !important;
+}
+
+.teal{
+	background-color: rgba(240, 230, 234, 0.5) !important;
+}
+
+
+.card, .card-content{
+	text-align:center;
+}
+
+.btn, .btn-large {
+
+	background-color:#512645;
+
+}
+
+.btn-adjust{
+	background-color:#df405a !important;
+	
+}
+
+#comment_iframe{
+	max-height:250px;
+	width:100%;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+	
+}
+
+
+.comment_section{
+	padding:0 5px 5px 5px;
+}
+
+.comment_form textarea{
+	height:10px;
+	margin:0 3px 3px 3px;
+
+}
+
+.textarea-adjust{
+}
+
+.background-adjust{
+	overflow: scroll;
+    overflow-x: hidden;
+}
+
+.background-adjust-comment{
+	margin-left: 6px;
+}
+
+
+@media only screen and (min-width: 750px) {
+    .brand-logo{
+		margin-left:20px;
+	}
+}   
